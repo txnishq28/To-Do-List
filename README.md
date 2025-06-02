@@ -39,14 +39,10 @@ A sleek and stylish **React** To-Do List application with **Bootstrap 6** and ne
 Install dependencies:
 
 bash
-Copy
-Edit
 npm install
 Run the app locally:
 
 bash
-Copy
-Edit
 npm start
 Open http://localhost:3000 to see the app in action.
 
@@ -58,8 +54,7 @@ To deploy your own version:
 Add homepage and deploy scripts in package.json:
 
 json
-Copy
-Edit
+
 "homepage": "https://<your-username>.github.io/<your-repo-name>",
 "scripts": {
   "predeploy": "npm run build",
@@ -68,14 +63,12 @@ Edit
 Install gh-pages:
 
 bash
-Copy
-Edit
 npm install --save gh-pages
+
+
 Deploy:
 
 bash
-Copy
-Edit
 npm run deploy
 
 
